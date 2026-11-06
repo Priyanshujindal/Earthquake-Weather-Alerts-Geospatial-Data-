@@ -1,0 +1,31 @@
+{
+  "quake_id": "us7000sample1",
+  "ingested_at": "20261105T120000Z",
+  "response": {
+    "latitude": 25.1,
+    "longitude": 125.6,
+    "generationtime_ms": 0.05,
+    "utc_offset_seconds": 0,
+    "timezone": "UTC",
+    "timezone_abbreviation": "UTC",
+    "elevation": 114.0,
+    "current_units": {
+      "time": "iso8601",
+      "interval": "seconds",
+      "temperature_2m": "\u00b0C",
+      "relative_humidity_2m": "%",
+      "precipitation": "mm",
+      "wind_speed_10m": "km/h",
+      "weather_code": "wmo code"
+    },
+    "current": {
+      "time": "2026-11-05T12:00",
+      "interval": 900,
+      "temperature_2m": 15.4,
+      "relative_humidity_2m": 57,
+      "precipitation": 0.8,
+      "wind_speed_10m": 8.8,
+      "weather_code": 3
+    }
+  }
+}

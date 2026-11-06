@@ -1,0 +1,31 @@
+{
+  "quake_id": "ci40123456",
+  "ingested_at": "20261105T120000Z",
+  "response": {
+    "latitude": 35.57,
+    "longitude": -117.7,
+    "generationtime_ms": 0.05,
+    "utc_offset_seconds": 0,
+    "timezone": "UTC",
+    "timezone_abbreviation": "UTC",
+    "elevation": 100.0,
+    "current_units": {
+      "time": "iso8601",
+      "interval": "seconds",
+      "temperature_2m": "\u00b0C",
+      "relative_humidity_2m": "%",
+      "precipitation": "mm",
+      "wind_speed_10m": "km/h",
+      "weather_code": "wmo code"
+    },
+    "current": {
+      "time": "2026-11-05T12:00",
+      "interval": 900,
+      "temperature_2m": 8.0,
+      "relative_humidity_2m": 35,
+      "precipitation": 0.0,
+      "wind_speed_10m": 3.0,
+      "weather_code": 0
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "quake-weather-medallion-pipeline",
+  "description": "USGS earthquakes + Open-Meteo weather: ingest -> bronze -> silver -> gold -> data quality",
+  "max_concurrent_runs": 1,
+  "schedule": {
+    "quartz_cron_expression": "0 0 * * * ?",
+    "timezone_id": "UTC",
+    "pause_status": "PAUSED"
+  },
+  "email_notifications": { "on_failure": ["<your-email>"] },
+  "tasks": [
+    {
+      "task_key": "ingest",
+      "notebook_task": { "notebook_path": "/Workspace/Users/<your-email>/quake-weather-platform/databricks/01_ingest_to_landing" },
+      "max_retries": 2,
+      "min_retry_interval_millis": 60000
+    },
+    {
+      "task_key": "bronze",
+      "depends_on": [{ "task_key": "ingest" }],
+      "notebook_task": { "notebook_path": "/Workspace/Users/<your-email>/quake-weather-platform/databricks/02_bronze" }
+    },
+    {
+      "task_key": "silver",
+      "depends_on": [{ "task_key": "bronze" }],
+      "notebook_task": { "notebook_path": "/Workspace/Users/<your-email>/quake-weather-platform/databricks/03_silver" }
+    },
+    {
+      "task_key": "gold",
+      "depends_on": [{ "task_key": "silver" }],
+      "notebook_task": { "notebook_path": "/Workspace/Users/<your-email>/quake-weather-platform/databricks/04_gold" }
+    },
+    {
+      "task_key": "data_quality",
+      "depends_on": [{ "task_key": "gold" }],
+      "notebook_task": { "notebook_path": "/Workspace/Users/<your-email>/quake-weather-platform/databricks/05_data_quality" }
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1793944800000,
+    "title": "USGS All Earthquakes, Past Day",
+    "status": 200,
+    "api": "1.14.1",
+    "count": 6
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "Mid-Atlantic Ridge",
+        "time": 1793857350000,
+        "updated": 1793930400000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sample2",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sample2&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 230,
+        "net": "us",
+        "code": "7000sample2",
+        "ids": ",us7000sample2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.05,
+        "rms": 0.2,
+        "gap": 80,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.8 - Mid-Atlantic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -29.1,
+          0.8,
+          10.0
+        ]
+      },
+      "id": "us7000sample2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "9 km SW of Ridgecrest, CA",
+        "time": 1793848211000,
+        "updated": 1793849100000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40123456",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40123456&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 78,
+        "net": "ci",
+        "code": "40123456",
+        "ids": ",ci40123456,",
+        "sources": ",ci,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.05,
+        "rms": 0.2,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 9 km SW of Ridgecrest, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7,
+          35.57,
+          6.2
+        ]
+      },
+      "id": "ci40123456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.1,
+        "place": "112 km W of Kandrian, Papua New Guinea",
+        "time": 1793927560000,
+        "updated": 1793932200000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sample3",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sample3&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 372,
+        "net": "us",
+        "code": "7000sample3",
+        "ids": ",us7000sample3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.05,
+        "rms": 0.2,
+        "gap": 80,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.1 - 112 km W of Kandrian, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.3,
+          -6.3,
+          55.0
+        ]
+      },
+      "id": "us7000sample3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.4,
+        "place": "14 km N of Borrego Springs, CA",
+        "time": 1793935983000,
+        "updated": 1793937000000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40123457",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40123457&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 115,
+        "net": "ci",
+        "code": "40123457",
+        "ids": ",ci40123457,",
+        "sources": ",ci,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.05,
+        "rms": 0.2,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.4 - 14 km N of Borrego Springs, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4,
+          33.4,
+          8.0
+        ]
+      },
+      "id": "ci40123457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "28 km E of Mina, Nevada",
+        "time": 1793940284000,
+        "updated": 1793941200000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00890001",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00890001&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 62,
+        "net": "nn",
+        "code": "00890001",
+        "ids": ",nn00890001,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.05,
+        "rms": 0.2,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 28 km E of Mina, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6,
+          38.4,
+          9.9
+        ]
+      },
+      "id": "nn00890001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 14.2,
+        "place": "Nowhere, Testland",
+        "time": 1793941800000,
+        "updated": 1793942400000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/bad0001",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=bad0001&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 2016,
+        "net": "us",
+        "code": "d0001",
+        "ids": ",bad0001,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.05,
+        "rms": 0.2,
+        "gap": 80,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 14.2 - Nowhere, Testland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0,
+          10.0,
+          5.0
+        ]
+      },
+      "id": "bad0001"
+    }
+  ],
+  "bbox": [
+    -180,
+    -90,
+    0,
+    180,
+    90,
+    700
+  ]
+}

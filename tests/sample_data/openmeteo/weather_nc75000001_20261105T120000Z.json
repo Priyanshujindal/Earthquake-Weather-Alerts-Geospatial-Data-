@@ -1,0 +1,31 @@
+{
+  "quake_id": "nc75000001",
+  "ingested_at": "20261105T120000Z",
+  "response": {
+    "latitude": 38.8,
+    "longitude": -122.8,
+    "generationtime_ms": 0.05,
+    "utc_offset_seconds": 0,
+    "timezone": "UTC",
+    "timezone_abbreviation": "UTC",
+    "elevation": 121.0,
+    "current_units": {
+      "time": "iso8601",
+      "interval": "seconds",
+      "temperature_2m": "\u00b0C",
+      "relative_humidity_2m": "%",
+      "precipitation": "mm",
+      "wind_speed_10m": "km/h",
+      "weather_code": "wmo code"
+    },
+    "current": {
+      "time": "2026-11-05T12:00",
+      "interval": 900,
+      "temperature_2m": 19.1,
+      "relative_humidity_2m": 68,
+      "precipitation": 0.2,
+      "wind_speed_10m": 11.7,
+      "weather_code": 61
+    }
+  }
+}

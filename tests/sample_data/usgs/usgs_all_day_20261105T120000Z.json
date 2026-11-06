@@ -1,0 +1,260 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1793880000000,
+    "title": "USGS All Earthquakes, Past Day",
+    "status": 200,
+    "api": "1.14.1",
+    "count": 6
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "9 km SW of Ridgecrest, CA",
+        "time": 1793848211000,
+        "updated": 1793849100000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40123456",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci40123456&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 78,
+        "net": "ci",
+        "code": "40123456",
+        "ids": ",ci40123456,",
+        "sources": ",ci,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.05,
+        "rms": 0.2,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 9 km SW of Ridgecrest, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7,
+          35.57,
+          6.2
+        ]
+      },
+      "id": "ci40123456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Mid-Atlantic Ridge",
+        "time": 1793857350000,
+        "updated": 1793859000000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sample2",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sample2&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 211,
+        "net": "us",
+        "code": "7000sample2",
+        "ids": ",us7000sample2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.05,
+        "rms": 0.2,
+        "gap": 80,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Mid-Atlantic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -29.1,
+          0.8,
+          10.0
+        ]
+      },
+      "id": "us7000sample2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "45 km NE of Hirara, Japan",
+        "time": 1793862902000,
+        "updated": 1793865600000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sample1",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sample1&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 291,
+        "net": "us",
+        "code": "7000sample1",
+        "ids": ",us7000sample1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.05,
+        "rms": 0.2,
+        "gap": 80,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 45 km NE of Hirara, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.6,
+          25.1,
+          35.0
+        ]
+      },
+      "id": "us7000sample1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.9,
+        "place": "5 km NNW of The Geysers, CA",
+        "time": 1793867445000,
+        "updated": 1793868300000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75000001",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75000001&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 36,
+        "net": "nc",
+        "code": "75000001",
+        "ids": ",nc75000001,",
+        "sources": ",nc,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.05,
+        "rms": 0.2,
+        "gap": 80,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.9 - 5 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8,
+          38.8,
+          2.1
+        ]
+      },
+      "id": "nc75000001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "62 km SSE of Pedro Bay, Alaska",
+        "time": 1793869519000,
+        "updated": 1793871000000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0250sample",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ak0250sample&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "ak",
+        "code": "0250sample",
+        "ids": ",ak0250sample,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.05,
+        "rms": 0.2,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 62 km SSE of Pedro Bay, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.2,
+          59.3,
+          95.4
+        ]
+      },
+      "id": "ak0250sample"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "7 km ESE of Volcano, Hawaii",
+        "time": 1793874000000,
+        "updated": 1793875200000,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74000001",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=hv74000001&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 48,
+        "net": "hv",
+        "code": "74000001",
+        "ids": ",hv74000001,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.05,
+        "rms": 0.2,
+        "gap": 80,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 7 km ESE of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.17,
+          19.4,
+          4.5
+        ]
+      },
+      "id": "hv74000001"
+    }
+  ],
+  "bbox": [
+    -180,
+    -90,
+    0,
+    180,
+    90,
+    700
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "quake_id": "aka2026vzdxdy",
+  "ingested_at": "20261106T060658Z",
+  "response": {
+    "latitude": 64.49912,
+    "longitude": -150.32697,
+    "generationtime_ms": 0.29087066650390625,
+    "utc_offset_seconds": 0,
+    "timezone": "GMT",
+    "timezone_abbreviation": "GMT",
+    "elevation": 113.0,
+    "current_units": {
+      "time": "iso8601",
+      "interval": "seconds",
+      "temperature_2m": "\u00b0C",
+      "relative_humidity_2m": "%",
+      "precipitation": "mm",
+      "wind_speed_10m": "km/h",
+      "weather_code": "wmo code"
+    },
+    "current": {
+      "time": "2026-11-06T06:00",
+      "interval": 900,
+      "temperature_2m": -3.9,
+      "relative_humidity_2m": 84,
+      "precipitation": 0.0,
+      "wind_speed_10m": 6.8,
+      "weather_code": 3
+    }
+  }
+}
